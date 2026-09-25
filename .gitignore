@@ -1,1 +1,28 @@
+# macOS
 .DS_Store
+**/.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Secrets and local config
+.env
+*.key
+
+# Saved models and outputs (remove these lines if you want them on GitHub)
+*.pkl
+*.h5
+*.pt
+*.joblib
+
+# Large data files: uncomment to keep the NHANES data out of the repo
+# NHANES DATA/
